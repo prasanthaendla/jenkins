@@ -1,7 +1,5 @@
 provider "aws" {
-  region     = "us-west-2"
-  access_key = "AKIAWCZC5XITXRGQNJG5"
-  secret_key = "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"
+  region     = "us-west-2"  
 }
 
 resource "aws_db_instance" "myoracle" {
